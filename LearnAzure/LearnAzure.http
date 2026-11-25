@@ -1,0 +1,11 @@
+@LearnAzure_HostAddress = http://localhost:5081
+
+GET {{LearnAzure_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{LearnAzure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
