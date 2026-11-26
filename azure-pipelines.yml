@@ -1,6 +1,7 @@
 trigger:
   - main
-pr: none
+pr:
+  - main
 pool:
   vmImage: ubuntu-latest
 steps:
